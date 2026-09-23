@@ -3,198 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PETER AG CHURCH - Worship, Word, Fellowship and Mission.">
-  <title>PETER AG CHURCH</title>
+  <meta name="description" content="PETER AG CHURCH — Worship, Word, Fellowship and Mission.">
+  <title>PETER AG CHURCH | Worship • Word • Fellowship • Mission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="#home">
-      <span class="brand-name">PETER AG CHURCH</span>
-      <span class="brand-tag">Worship • Word • Fellowship • Mission</span>
+
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a class="brand" href="#home" aria-label="PETER AG CHURCH home">
+      <span class="cross">✝</span>
+      <span><strong>PETER AG CHURCH</strong><small>Worship • Word • Fellowship • Mission</small></span>
     </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
-    <nav id="mainNav">
-      <a href="#home" data-en="Home" data-kn="ಮುಖಪುಟ">Home</a>
-      <a href="#announcements" data-en="Announcements" data-kn="ಮುಖ್ಯ ಪ್ರಕಟಣೆಗಳು">Announcements</a>
-      <a href="#about" data-en="About Us" data-kn="ನಮ್ಮ ಬಗ್ಗೆ">About Us</a>
-      <a href="#worship" data-en="Worship" data-kn="ಆರಾಧನೆ">Worship</a>
-      <a href="#prayer" data-en="Prayer" data-kn="ಪ್ರಾರ್ಥನೆ">Prayer</a>
-      <a href="#bible" data-en="Bible Verses" data-kn="ಬೈಬಲ್ ವಚನಗಳು">Bible Verses</a>
-      <a href="#contact" data-en="Contact" data-kn="ಸಂಪರ್ಕ">Contact</a>
-    </nav>
-    <button class="language-toggle" id="languageToggle">ಕನ್ನಡ</button>
-  </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Our Services</a>
+      <a href="#messages">Bible / Messages</a>
+      <a href="#songs">Worship Songs</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#live">Live</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 </header>
 
 <main>
-<section id="home" class="hero">
-  <div class="container hero-content">
-    <span class="eyebrow" data-en="WELCOME TO" data-kn="ಸ್ವಾಗತ">WELCOME TO</span>
-    <h1>PETER AG CHURCH</h1>
-    <p data-en="A place to worship, grow in God's Word, build fellowship and serve with love."
-       data-kn="ದೇವರನ್ನು ಆರಾಧಿಸಲು, ದೇವರ ವಾಕ್ಯದಲ್ಲಿ ಬೆಳೆಯಲು, ಸಹವಾಸವನ್ನು ಹೊಂದಲು ಮತ್ತು ಪ್ರೀತಿಯಿಂದ ಸೇವೆ ಮಾಡಲು ಒಂದು ಆತ್ಮಿಕ ಕುಟುಂಬ.">
-      A place to worship, grow in God's Word, build fellowship and serve with love.
-    </p>
-    <div class="hero-buttons">
-      <a class="btn btn-red" href="#announcements" data-en="View Announcements" data-kn="ಪ್ರಕಟಣೆಗಳನ್ನು ನೋಡಿ">View Announcements</a>
-      <a class="btn btn-outline" href="#contact" data-en="Visit Us" data-kn="ನಮ್ಮನ್ನು ಭೇಟಿ ಮಾಡಿ">Visit Us</a>
-    </div>
-  </div>
-</section>
-
-<section id="announcements" class="section announcements">
-  <div class="container">
-    <div class="section-heading">
-      <span class="section-label" data-en="IMPORTANT" data-kn="ಮುಖ್ಯ">IMPORTANT</span>
-      <h2 data-en="Main Announcements" data-kn="ಮುಖ್ಯ ಪ್ರಕಟಣೆಗಳು">Main Announcements</h2>
-      <p data-en="Please take note of our regular church meetings and ministry timings."
-         data-kn="ನಮ್ಮ ನಿಯಮಿತ ಚರ್ಚ್ ಸಭೆಗಳು ಮತ್ತು ಸೇವಾ ಸಮಯಗಳನ್ನು ಗಮನಿಸಿ.">
-        Please take note of our regular church meetings and ministry timings.
-      </p>
-    </div>
-    <div class="announcement-grid">
-      <article class="announcement-card">
-        <span class="card-number">01</span>
-        <h3 data-en="Sunday Service" data-kn="ಭಾನುವಾರ ಆರಾಧನಾ ಸೇವೆ">Sunday Service</h3>
-        <p data-en="Every Sunday • 10:00 AM – 12:30 PM" data-kn="ಪ್ರತಿ ಭಾನುವಾರ • ಬೆಳಿಗ್ಗೆ 10:00 – ಮಧ್ಯಾಹ್ನ 12:30">Every Sunday • 10:00 AM – 12:30 PM</p>
-      </article>
-      <article class="announcement-card">
-        <span class="card-number">02</span>
-        <h3 data-en="Cell Prayers" data-kn="ಸೆಲ್ ಪ್ರಾರ್ಥನೆಗಳು">Cell Prayers</h3>
-        <p data-en="Every Tuesday to Saturday" data-kn="ಪ್ರತಿ ಮಂಗಳವಾರದಿಂದ ಶನಿವಾರದವರೆಗೆ">Every Tuesday to Saturday</p>
-        <strong>Ramasagara • Kaggalahalli • Kaggalipura</strong>
-      </article>
-      <article class="announcement-card">
-        <span class="card-number">03</span>
-        <h3 data-en="Fasting Prayer" data-kn="ಉಪವಾಸ ಪ್ರಾರ್ಥನೆ">Fasting Prayer</h3>
-        <p data-en="Every 2nd Friday • From 10:00 AM onwards" data-kn="ಪ್ರತಿ 2ನೇ ಶುಕ್ರವಾರ • ಬೆಳಿಗ್ಗೆ 10:00ರಿಂದ">Every 2nd Friday • From 10:00 AM onwards</p>
-      </article>
-      <article class="announcement-card">
-        <span class="card-number">04</span>
-        <h3 data-en="All Night Prayer" data-kn="ರಾತ್ರಿಯಿಡೀ ಪ್ರಾರ್ಥನೆ">All Night Prayer</h3>
-        <p data-en="Every 3rd Friday • From 9:45 PM onwards" data-kn="ಪ್ರತಿ 3ನೇ ಶುಕ್ರವಾರ • ರಾತ್ರಿ 9:45ರಿಂದ">Every 3rd Friday • From 9:45 PM onwards</p>
-      </article>
-      <article class="announcement-card">
-        <span class="card-number">05</span>
-        <h3 data-en="Sunday School" data-kn="ಸಂಡೇ ಸ್ಕೂಲ್">Sunday School</h3>
-        <p data-en="Every Sunday • 11:30 AM" data-kn="ಪ್ರತಿ ಭಾನುವಾರ • ಬೆಳಿಗ್ಗೆ 11:30">Every Sunday • 11:30 AM</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section id="about" class="section">
-  <div class="container two-column">
-    <div>
-      <span class="section-label" data-en="OUR CHURCH" data-kn="ನಮ್ಮ ಚರ್ಚ್">OUR CHURCH</span>
-      <h2 data-en="About Us" data-kn="ನಮ್ಮ ಬಗ್ಗೆ">About Us</h2>
-      <p data-en="Peter AG Church is a Christ-centered community where people from every walk of life can come together to worship God, grow in His Word, build meaningful fellowship, and serve others with love."
-         data-kn="ಪೀಟರ್ AG ಚರ್ಚ್ ಕ್ರಿಸ್ತಕೇಂದ್ರಿತ ಆತ್ಮಿಕ ಕುಟುಂಬವಾಗಿದ್ದು, ದೇವರನ್ನು ಆರಾಧಿಸಲು, ದೇವರ ವಾಕ್ಯದಲ್ಲಿ ಬೆಳೆಯಲು, ಆತ್ಮೀಯ ಸಹವಾಸವನ್ನು ಹೊಂದಲು ಮತ್ತು ಪ್ರೀತಿಯಿಂದ ಸೇವೆ ಮಾಡಲು ಎಲ್ಲರನ್ನೂ ಆತ್ಮೀಯವಾಗಿ ಆಹ್ವಾನಿಸುತ್ತದೆ.">
-        Peter AG Church is a Christ-centered community where people from every walk of life can come together to worship God, grow in His Word, build meaningful fellowship, and serve others with love.
-      </p>
-      <p data-en="We believe church is more than a place to gather—it is a family where faith is strengthened, lives are encouraged, and the hope of Jesus is shared. Through worship services, prayer, cell fellowships, Sunday School and ministry, we seek to help every person take the next step in their walk with Christ."
-         data-kn="ಚರ್ಚ್ ಎಂದರೆ ಕೇವಲ ಸೇರಿಕೊಳ್ಳುವ ಸ್ಥಳವಲ್ಲ; ನಂಬಿಕೆಯಲ್ಲಿ ಬಲಪಡಲು, ಪರಸ್ಪರ ಉತ್ತೇಜನ ಪಡೆಯಲು ಮತ್ತು ಯೇಸು ಕ್ರಿಸ್ತನ ನಿರೀಕ್ಷೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಇರುವ ಕುಟುಂಬವಾಗಿದೆ. ಆರಾಧನೆ, ಪ್ರಾರ್ಥನೆ, ಸೆಲ್ ಫೆಲೋಶಿಪ್, ಸಂಡೇ ಸ್ಕೂಲ್ ಮತ್ತು ಸೇವೆಯ ಮೂಲಕ ಪ್ರತಿಯೊಬ್ಬರೂ ಕ್ರಿಸ್ತನಲ್ಲಿ ಮುಂದುವರೆಯಲು ನಾವು ಸಹಾಯ ಮಾಡಲು ಬಯಸುತ್ತೇವೆ.">
-        We believe church is more than a place to gather—it is a family where faith is strengthened, lives are encouraged, and the hope of Jesus is shared. Through worship services, prayer, cell fellowships, Sunday School and ministry, we seek to help every person take the next step in their walk with Christ.
-      </p>
-    </div>
-    <div class="about-box">
-      <div class="cross">✝</div>
-      <h3 data-en="Worship • Grow • Serve" data-kn="ಆರಾಧನೆ • ಬೆಳವಣಿಗೆ • ಸೇವೆ">Worship • Grow • Serve</h3>
-      <p data-en="You are warmly welcome to worship and grow with us."
-         data-kn="ನಮ್ಮೊಂದಿಗೆ ಆರಾಧಿಸಲು ಮತ್ತು ಆತ್ಮಿಕವಾಗಿ ಬೆಳೆಯಲು ನಿಮಗೆ ಆತ್ಮೀಯ ಸ್ವಾಗತ.">
-        You are warmly welcome to worship and grow with us.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="worship" class="section dark-section">
-  <div class="container">
-    <div class="section-heading">
-      <span class="section-label" data-en="JOIN US" data-kn="ನಮ್ಮೊಂದಿಗೆ ಸೇರಿ">JOIN US</span>
-      <h2 data-en="Worship & Fellowship" data-kn="ಆರಾಧನೆ ಮತ್ತು ಸಹವಾಸ">Worship & Fellowship</h2>
-    </div>
-    <div class="schedule-grid">
-      <div class="schedule-item">
-        <span class="icon">⛪</span>
-        <h3 data-en="Sunday Worship" data-kn="ಭಾನುವಾರ ಆರಾಧನೆ">Sunday Worship</h3>
-        <p>10:00 AM – 12:30 PM</p>
-      </div>
-      <div class="schedule-item">
-        <span class="icon">🍞</span>
-        <h3 data-en="Communion Service" data-kn="ಕಮ್ಯುನಿಯನ್ ಸೇವೆ">Communion Service</h3>
-        <p data-en="Every 2nd Sunday" data-kn="ಪ್ರತಿ 2ನೇ ಭಾನುವಾರ">Every 2nd Sunday</p>
-      </div>
-      <div class="schedule-item">
-        <span class="icon">📖</span>
-        <h3 data-en="Sunday School" data-kn="ಸಂಡೇ ಸ್ಕೂಲ್">Sunday School</h3>
-        <p>11:30 AM</p>
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">WELCOME TO</p>
+      <h1>PETER AG CHURCH</h1>
+      <p class="hero-subtitle">A place to worship, grow and serve together in the love of Jesus Christ.</p>
+      <blockquote>“For where two or three gather in my name, there am I with them.”<br><span>Matthew 18:20</span></blockquote>
+      <div class="hero-actions">
+        <a class="btn primary" href="#services">Join Us for Worship <span>→</span></a>
+        <a class="btn ghost" href="#live">Watch Live <span>▶</span></a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="prayer" class="section">
-  <div class="container">
-    <div class="section-heading">
-      <span class="section-label" data-en="PRAYER MINISTRY" data-kn="ಪ್ರಾರ್ಥನಾ ಸೇವೆ">PRAYER MINISTRY</span>
-      <h2 data-en="Prayer Meetings" data-kn="ಪ್ರಾರ್ಥನಾ ಸಭೆಗಳು">Prayer Meetings</h2>
+  <section class="schedule">
+    <div class="container schedule-grid">
+      <div class="schedule-title"><span class="icon">◷</span><div><strong>Worship Timings</strong><small>Come, let us worship together</small></div></div>
+      <div class="schedule-item"><span class="emoji">☀</span><div><strong>Sunday Worship</strong><span>10:30 AM – 12:30 PM</span><small>Main Service</small></div></div>
+      <div class="schedule-item"><span class="emoji">🙏</span><div><strong>Friday Prayer Meeting</strong><span>7:00 PM – 8:30 PM</span><small>All are welcome</small></div></div>
+      <div class="schedule-item highlight"><span class="emoji">⌖</span><div><strong>Baldwin High School Auditorium</strong><span>6:00 AM – 8:00 AM</span><small>Separate Service</small></div></div>
     </div>
-    <div class="prayer-list">
-      <div><h3 data-en="Cell Prayer Locations" data-kn="ಸೆಲ್ ಪ್ರಾರ್ಥನಾ ಸ್ಥಳಗಳು">Cell Prayer Locations</h3><p>Ramasagara • Kaggalahalli • Kaggalipura</p><small data-en="Tuesday to Saturday" data-kn="ಮಂಗಳವಾರದಿಂದ ಶನಿವಾರದವರೆಗೆ">Tuesday to Saturday</small></div>
-      <div><h3 data-en="Fasting Prayer" data-kn="ಉಪವಾಸ ಪ್ರಾರ್ಥನೆ">Fasting Prayer</h3><p data-en="Every 2nd Friday • From 10:00 AM" data-kn="ಪ್ರತಿ 2ನೇ ಶುಕ್ರವಾರ • ಬೆಳಿಗ್ಗೆ 10:00ರಿಂದ">Every 2nd Friday • From 10:00 AM</p></div>
-      <div><h3 data-en="All Night Prayer" data-kn="ರಾತ್ರಿಯಿಡೀ ಪ್ರಾರ್ಥನೆ">All Night Prayer</h3><p data-en="Every 3rd Friday • From 9:45 PM" data-kn="ಪ್ರತಿ 3ನೇ ಶುಕ್ರವಾರ • ರಾತ್ರಿ 9:45ರಿಂದ">Every 3rd Friday • From 9:45 PM</p></div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="bible" class="section verse-section">
-  <div class="container">
-    <div class="section-heading">
-      <span class="section-label" data-en="GOD'S WORD" data-kn="ದೇವರ ವಾಕ್ಯ">GOD'S WORD</span>
-      <h2 data-en="Bible Verses" data-kn="ಬೈಬಲ್ ವಚನಗಳು">Bible Verses</h2>
+  <section class="section about" id="about">
+    <div class="container two-col">
+      <div class="photo church-photo" role="img" aria-label="Church building"></div>
+      <div>
+        <p class="eyebrow dark">ABOUT US</p>
+        <h2>PETER AG CHURCH</h2>
+        <p class="lead">PETER AG CHURCH is a Christ-centered community committed to worshipping God, studying His Word, and sharing His love with our neighbours and the world.</p>
+        <p>We believe in the power of prayer, fellowship and the transforming grace of Jesus Christ. Everyone is welcome to come as they are, grow in faith and serve with love.</p>
+        <div class="pillars">
+          <div><b>✚</b><span><strong>Jesus Christ</strong><small>Our Foundation</small></span></div>
+          <div><b>👥</b><span><strong>Community</strong><small>Our Family</small></span></div>
+          <div><b>♥</b><span><strong>Mission</strong><small>Our Calling</small></span></div>
+        </div>
+      </div>
     </div>
-    <div class="verse-grid">
-      <article class="verse-card">
-        <div class="verse-mark">“</div>
-        <p class="english-verse">“For where two or three are gathered together in my name, there am I in the midst of them.”</p>
-        <p class="kannada-verse">“ಎಲ್ಲಿ ಇಬ್ಬರು ಅಥವಾ ಮೂವರು ನನ್ನ ಹೆಸರಿನಲ್ಲಿ ಕೂಡಿಬರುತ್ತಾರೋ, ಅಲ್ಲಿ ನಾನು ಅವರ ಮಧ್ಯದಲ್ಲಿದ್ದೇನೆ.”</p>
-        <strong>Matthew 18:20</strong>
+  </section>
+
+  <section class="services-band" id="services">
+    <div class="container services-wrap">
+      <div class="services-intro">
+        <p class="eyebrow">OUR SERVICES</p>
+        <h2>Come and Be a Part</h2>
+        <p>We have different ways to grow together in faith, from worship to Bible study and prayer.</p>
+        <a class="btn primary" href="#contact">View All Services →</a>
+      </div>
+      <div class="service-cards">
+        <article><span>👥</span><h3>Sunday Worship</h3><p>Praise • Worship<br>• Message</p></article>
+        <article><span>📖</span><h3>Bible Study</h3><p>Grow in God's Word<br>together</p></article>
+        <article><span>🙏</span><h3>Prayer Meeting</h3><p>Seek • Pray<br>• Believe</p></article>
+        <article><span>♫</span><h3>Fellowship</h3><p>Build friendships<br>in Christ</p></article>
+        <article><span>♥</span><h3>Outreach</h3><p>Share His love<br>with others</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="verse-banner">
+    <div class="container">
+      <span class="book">▤</span>
+      <div><p>“The Lord is my light and my salvation; whom shall I fear? The Lord is the stronghold of my life; of whom shall I be afraid?”</p><small>Psalm 27:1</small></div>
+    </div>
+  </section>
+
+  <section class="section content-section" id="messages">
+    <div class="container cards-grid three">
+      <article class="content-card">
+        <div class="section-heading"><span>🙏</span><div><h3>Latest Message</h3><small>Be encouraged by God's Word</small></div></div>
+        <div class="message-thumb"></div>
+        <h4>Living by Faith</h4>
+        <p class="meta">Pastor's Message • September 14, 2025</p>
+        <p>Faith is not just believing; it's trusting God in every season of life.</p>
+        <button class="small-btn" data-toast="Message player can be connected to your YouTube/video link.">Watch / Listen ▶</button>
       </article>
-      <article class="verse-card">
-        <div class="verse-mark">“</div>
-        <p class="english-verse">“I was glad when they said unto me, Let us go into the house of the LORD.”</p>
-        <p class="kannada-verse">“ನಾವು ಕರ್ತನ ಆಲಯಕ್ಕೆ ಹೋಗೋಣ ಎಂದು ಅವರು ಹೇಳಿದಾಗ ನಾನು ಸಂತೋಷಪಟ್ಟೆನು.”</p>
-        <strong>Psalm 122:1</strong>
+
+      <article class="content-card" id="songs">
+        <div class="section-heading"><span>♫</span><div><h3>Worship Songs</h3><small>Lift your voice to the Lord</small></div></div>
+        <div class="song-thumb"></div>
+        <ul class="link-list">
+          <li><a href="#" data-toast="Add your Kannada Christian Songs page here.">Kannada Christian Songs <b>›</b></a></li>
+          <li><a href="#" data-toast="Add your Aaradhana Geethegalu collection here.">Aaradhana Geethegalu <b>›</b></a></li>
+          <li><a href="#" data-toast="Add your Jayageethegalu collection here.">Jayageethegalu <b>›</b></a></li>
+          <li><a href="#" data-toast="Add your Bible Songs collection here.">Bible Songs <b>›</b></a></li>
+          <li><a href="#" data-toast="Add more song categories here.">More Songs <b>›</b></a></li>
+        </ul>
+        <button class="small-btn outline" data-toast="Create a dedicated worship songs page and link it here.">View All Songs →</button>
+      </article>
+
+      <article class="content-card" id="live">
+        <div class="section-heading"><span>▶</span><div><h3>Live / YouTube</h3><small>Join our live worship service</small></div></div>
+        <div class="live-thumb"><span>LIVE</span><button class="play" data-toast="Replace this with your YouTube Live URL.">▶</button></div>
+        <button class="youtube-btn" id="youtubeBtn">▶ Watch Live on YouTube ↗</button>
       </article>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="contact" class="section contact-section">
-  <div class="container contact-box">
-    <div>
-      <span class="section-label" data-en="COME AND WORSHIP" data-kn="ಬನ್ನಿ, ಆರಾಧಿಸೋಣ">COME AND WORSHIP</span>
-      <h2 data-en="Visit PETER AG CHURCH" data-kn="PETER AG CHURCH ಗೆ ಭೇಟಿ ನೀಡಿ">Visit PETER AG CHURCH</h2>
-      <p class="address">Girigowdanadoddi, Thattaguppe Post,<br>Bengaluru South, Bengaluru – 560082</p>
-      <a class="btn btn-red" href="https://maps.app.goo.gl/2hhvSA19Efv9coWaA?g_st=ac" target="_blank" rel="noopener" data-en="Open in Google Maps" data-kn="Google Maps ನಲ್ಲಿ ತೆರೆಯಿರಿ">Open in Google Maps</a>
+  <section class="section gallery-contact" id="gallery">
+    <div class="container bottom-grid">
+      <div>
+        <div class="section-heading"><span>▣</span><div><h3>Gallery</h3><small>Moments of God's goodness</small></div></div>
+        <div class="gallery">
+          <div class="g g1"></div><div class="g g2"></div><div class="g g3"></div><div class="g g4"></div><div class="g g5"></div>
+        </div>
+        <button class="small-btn outline" data-toast="Add your church gallery page here.">View Gallery →</button>
+      </div>
+
+      <div id="contact">
+        <div class="section-heading"><span>⌖</span><div><h3>Contact & Location</h3><small>We are here to serve you</small></div></div>
+        <div class="contact-row"><b>☎</b><span>+91 86609 11338 (WhatsApp)</span></div>
+        <div class="contact-row"><b>●</b><span>Girigowdanadoddi, Thattaguppe Post<br>Kanakapura Main Road, Bengaluru – 560116</span></div>
+        <div class="map-box"><span>📍 PETER AG CHURCH</span></div>
+        <a class="small-btn outline map-link" href="https://www.google.com/maps/search/?api=1&query=PETER+AG+CHURCH+Girigowdanadoddi+Bengaluru" target="_blank" rel="noopener">View on Google Maps ↗</a>
+      </div>
     </div>
-    <div class="contact-highlight">
-      <span>⛪</span>
-      <p data-en="Everyone is welcome." data-kn="ಎಲ್ಲರಿಗೂ ಆತ್ಮೀಯ ಸ್ವಾಗತ.">Everyone is welcome.</p>
-    </div>
-  </div>
-</section>
+  </section>
 </main>
 
 <footer>
   <div class="container footer-inner">
-    <div><strong>PETER AG CHURCH</strong><span data-en="Worship • Word • Fellowship • Mission" data-kn="ಆರಾಧನೆ • ವಾಕ್ಯ • ಸಹವಾಸ • ಸೇವೆ">Worship • Word • Fellowship • Mission</span></div>
-    <p>© <span id="year"></span> PETER AG CHURCH</p>
+    <a class="brand" href="#home"><span class="cross">✝</span><span><strong>PETER AG CHURCH</strong><small>Worship • Word • Fellowship • Mission</small></span></a>
+    <p class="motto">Jesus Changes Lives</p>
+    <div class="socials"><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><small>© <span id="year"></span> PETER AG CHURCH. All rights reserved.</small></div>
   </div>
 </footer>
+
+<div class="toast" id="toast" role="status"></div>
 <script src="script.js"></script>
 </body>
 </html>
