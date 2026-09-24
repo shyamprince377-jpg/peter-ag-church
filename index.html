@@ -22,14 +22,16 @@
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
 
     <div class="nav-links" id="navLinks">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#services">Our Services</a>
-      <a href="#messages">Bible / Messages</a>
-      <a href="#songs">Worship Songs</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#live">Live</a>
-      <a href="#contact">Contact</a>
+      <a class="active" href="#home" data-en="Home" data-kn="ಮುಖಪುಟ">Home</a>
+      <a href="#about" data-en="About Us" data-kn="ನಮ್ಮ ಬಗ್ಗೆ">About Us</a>
+      <a href="#services" data-en="Our Services" data-kn="ನಮ್ಮ ಸೇವೆಗಳು">Our Services</a>
+      <a href="#announcements">Announcements</a>
+      <a href="#messages" data-en="Bible / Messages" data-kn="ಬೈಬಲ್ / ಸಂದೇಶಗಳು">Bible / Messages</a>
+      <a href="#songs" data-en="Worship Songs" data-kn="ಆರಾಧನಾ ಗೀತೆಗಳು">Worship Songs</a>
+      <a href="#gallery" data-en="Gallery" data-kn="ಗ್ಯಾಲರಿ">Gallery</a>
+      <a href="#live" data-en="Live" data-kn="ಲೈವ್">Live</a>
+      <a href="#contact" data-en="Contact" data-kn="ಸಂಪರ್ಕ">Contact</a>
+      <span class="language-switch"><button id="enBtn" class="active" type="button">EN</button><button id="knBtn" type="button">ಕನ್ನಡ</button></span>
     </div>
   </nav>
 </header>
@@ -53,8 +55,21 @@
     <div class="container schedule-grid">
       <div class="schedule-title"><span class="icon">◷</span><div><strong>Worship Timings</strong><small>Come, let us worship together</small></div></div>
       <div class="schedule-item"><span class="emoji">☀</span><div><strong>Sunday Worship</strong><span>10:30 AM – 12:30 PM</span><small>Main Service</small></div></div>
-      <div class="schedule-item"><span class="emoji">🙏</span><div><strong>Friday Prayer Meeting</strong><span>7:00 PM – 8:30 PM</span><small>All are welcome</small></div></div>
-      <div class="schedule-item highlight"><span class="emoji">⌖</span><div><strong>Baldwin High School Auditorium</strong><span>6:00 AM – 8:00 AM</span><small>Separate Service</small></div></div>
+      <div class="schedule-item"><span class="emoji">🤝</span><div><strong>2nd Sunday Communion</strong><span>Sunday Service</span><small>Communion Service</small></div></div>
+      <div class="schedule-item highlight"><span class="emoji">📖</span><div><strong>Sunday School</strong><span>11:30 AM</span><small>Every Sunday</small></div></div>
+    </div>
+  </section>
+
+  <section class="announcements" id="announcements">
+    <div class="container">
+      <div class="announcement-head"><p class="eyebrow">MAIN ANNOUNCEMENTS</p><h2 data-en="Church Announcements" data-kn="ಚರ್ಚ್ ಪ್ರಕಟಣೆಗಳು">Church Announcements</h2></div>
+      <div class="announcement-grid">
+        <article class="announcement-card"><div class="a-icon">☀</div><h3 data-en="Every Sunday Service" data-kn="ಪ್ರತಿ ಭಾನುವಾರ ಆರಾಧನೆ">Every Sunday Service</h3><p data-en="Starts from 10:00 AM to 12:30 PM" data-kn="ಬೆಳಿಗ್ಗೆ 10:00 ರಿಂದ ಮಧ್ಯಾಹ್ನ 12:30 ರವರೆಗೆ">Starts from 10:00 AM to 12:30 PM</p></article>
+        <article class="announcement-card"><div class="a-icon">🤝</div><h3 data-en="Cell Prayers" data-kn="ಸೆಲ್ ಪ್ರಾರ್ಥನೆ">Tuesday to Saturday Cell Prayers</h3><ul><li>Ramasagara</li><li>Kaggalahalli</li><li>Kaggalipura</li></ul></article>
+        <article class="announcement-card"><div class="a-icon">🙏</div><h3 data-en="2nd Friday Fasting Prayer" data-kn="2ನೇ ಶುಕ್ರವಾರ ಉಪವಾಸ ಪ್ರಾರ್ಥನೆ">2nd Friday Fasting Prayer</h3><p>Starts from 10:00 AM onwards</p></article>
+        <article class="announcement-card"><div class="a-icon">🌙</div><h3 data-en="3rd Friday All Night Prayer" data-kn="3ನೇ ಶುಕ್ರವಾರ ರಾತ್ರಿ ಪೂರ್ತಿ ಪ್ರಾರ್ಥನೆ">3rd Friday All Night Prayer</h3><p>Starts from 9:45 PM onwards</p></article>
+        <article class="announcement-card"><div class="a-icon">📖</div><h3 data-en="Sunday School" data-kn="ಸಂಡೇ ಸ್ಕೂಲ್">Sunday School</h3><p>Starts at 11:30 AM</p></article>
+      </div>
     </div>
   </section>
 
@@ -64,8 +79,8 @@
       <div>
         <p class="eyebrow dark">ABOUT US</p>
         <h2>PETER AG CHURCH</h2>
-        <p class="lead">PETER AG CHURCH is a Christ-centered community committed to worshipping God, studying His Word, and sharing His love with our neighbours and the world.</p>
-        <p>We believe in the power of prayer, fellowship and the transforming grace of Jesus Christ. Everyone is welcome to come as they are, grow in faith and serve with love.</p>
+        <p class="lead" data-en="PETER AG CHURCH is a Christ-centered spiritual family where people can worship God, grow in His Word, experience fellowship, and serve others with the love of Jesus Christ." data-kn="ಪೀಟರ್ AG ಚರ್ಚ್ ಕ್ರಿಸ್ತಕೇಂದ್ರಿತ ಆತ್ಮಿಕ ಕುಟುಂಬವಾಗಿದ್ದು, ದೇವರನ್ನು ಆರಾಧಿಸಲು, ದೇವರ ವಾಕ್ಯದಲ್ಲಿ ಬೆಳೆಯಲು, ಆತ್ಮೀಯ ಸಹವಾಸವನ್ನು ಹೊಂದಲು ಮತ್ತು ಯೇಸು ಕ್ರಿಸ್ತನ ಪ್ರೀತಿಯಿಂದ ಸೇವೆ ಮಾಡಲು ಎಲ್ಲರನ್ನೂ ಆಹ್ವಾನಿಸುತ್ತದೆ.">PETER AG CHURCH is a Christ-centered spiritual family where people can worship God, grow in His Word, experience fellowship, and serve others with the love of Jesus Christ.</p>
+        <p data-en="Through worship, prayer, fellowship, Sunday School and ministry, we seek to encourage every person to grow in faith and discover God’s purpose for their life. You are warmly welcome to worship and grow with us." data-kn="ಆರಾಧನೆ, ಪ್ರಾರ್ಥನೆ, ಫೆಲೋಶಿಪ್, ಸಂಡೇ ಸ್ಕೂಲ್ ಮತ್ತು ಸೇವೆಯ ಮೂಲಕ ಪ್ರತಿಯೊಬ್ಬರೂ ನಂಬಿಕೆಯಲ್ಲಿ ಬೆಳೆಯಲು ಮತ್ತು ದೇವರ ಉದ್ದೇಶವನ್ನು ತಿಳಿದುಕೊಳ್ಳಲು ನಾವು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತೇವೆ. ನಮ್ಮೊಂದಿಗೆ ಆರಾಧಿಸಿ ಮತ್ತು ಆತ್ಮಿಕವಾಗಿ ಬೆಳೆಯಲು ನಿಮಗೆ ಆತ್ಮೀಯ ಸ್ವಾಗತ.">Through worship, prayer, fellowship, Sunday School and ministry, we seek to encourage every person to grow in faith and discover God’s purpose for their life. You are warmly welcome to worship and grow with us.</p>
         <div class="pillars">
           <div><b>✚</b><span><strong>Jesus Christ</strong><small>Our Foundation</small></span></div>
           <div><b>👥</b><span><strong>Community</strong><small>Our Family</small></span></div>
@@ -96,7 +111,7 @@
   <section class="verse-banner">
     <div class="container">
       <span class="book">▤</span>
-      <div><p>“The Lord is my light and my salvation; whom shall I fear? The Lord is the stronghold of my life; of whom shall I be afraid?”</p><small>Psalm 27:1</small></div>
+      <div class="bible-dual"><p class="en">“The Lord is my light and my salvation; whom shall I fear? The Lord is the stronghold of my life; of whom shall I be afraid?”</p><p class="kn">“ಯೆಹೋವನು ನನ್ನ ಬೆಳಕೂ ನನ್ನ ರಕ್ಷಣೆಯೂ ಆಗಿದ್ದಾನೆ; ನಾನು ಯಾರಿಗೆ ಭಯಪಡಲಿ? ಯೆಹೋವನು ನನ್ನ ಜೀವದ ಕೋಟೆಯಾಗಿದ್ದಾನೆ; ನಾನು ಯಾರಿಗೆ ಅಂಜಲಿ?”</p><small>Psalm 27:1 • ಕೀರ್ತನೆ 27:1</small></div>
     </div>
   </section>
 
@@ -145,9 +160,9 @@
       <div id="contact">
         <div class="section-heading"><span>⌖</span><div><h3>Contact & Location</h3><small>We are here to serve you</small></div></div>
         <div class="contact-row"><b>☎</b><span>+91 86609 11338 (WhatsApp)</span></div>
-        <div class="contact-row"><b>●</b><span>Girigowdanadoddi, Thattaguppe Post<br>Kanakapura Main Road, Bengaluru – 560116</span></div>
-        <div class="map-box"><span>📍 PETER AG CHURCH</span></div>
-        <a class="small-btn outline map-link" href="https://www.google.com/maps/search/?api=1&query=PETER+AG+CHURCH+Girigowdanadoddi+Bengaluru" target="_blank" rel="noopener">View on Google Maps ↗</a>
+        <div class="contact-row"><b>●</b><span>Girigowdanadoddi, Thattaguppe, Post<br>Bengaluru South, Bengaluru – 560082</span></div>
+        <div class="map-box"><span>📍 PETER AG CHURCH<br><small>Girigowdanadoddi, Thattaguppe</small></span></div>
+        <a class="small-btn outline map-link" href="https://maps.app.goo.gl/2hhvSA19Efv9coWaA?g_st=ac" target="_blank" rel="noopener">View on Google Maps ↗</a>
       </div>
     </div>
   </section>
