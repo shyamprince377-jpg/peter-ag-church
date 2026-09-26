@@ -28,3 +28,11 @@ footer{background:var(--navy);color:#fff;padding:27px 0}.footer-inner{display:gr
 .language-switch{display:flex;gap:6px;align-items:center;margin-left:4px}.language-switch button{border:1px solid #ffffff55;background:transparent;color:#fff;border-radius:5px;padding:5px 8px;font-size:10px;font-weight:800;cursor:pointer}.language-switch button.active{background:var(--gold);border-color:var(--gold);color:#fff}.announcements{background:#fff;padding:45px 0 20px}.announcement-head{text-align:center;margin-bottom:24px}.announcement-head .eyebrow{color:var(--gold)}.announcement-head h2{margin:0;font-size:29px}.announcement-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.announcement-card{border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:9px;padding:18px 14px;background:#fff;box-shadow:var(--shadow)}.announcement-card .a-icon{font-size:24px}.announcement-card h3{font-size:13px;margin:8px 0 6px}.announcement-card p{font-size:11px;color:var(--muted);margin:0}.announcement-card ul{font-size:11px;color:var(--muted);padding-left:18px;margin:6px 0 0}.bible-dual{display:grid;gap:4px}.bible-dual .kn{display:none}.location-note{font-size:10px;color:var(--muted);margin-top:5px}.map-box{background:linear-gradient(135deg,#f0f0f0,#fafafa)}
 @media(max-width:950px){.announcement-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.language-switch{justify-content:flex-start;padding:8px 0}.announcement-grid{grid-template-columns:1fr}.nav-links .language-switch{border-bottom:0}}
+
+/* YouTube channel */
+.youtube-channel-thumb{background:linear-gradient(135deg,#111,#2a2a2a);border:1px solid #222}
+.youtube-channel-thumb>span{background:#c8102e}
+.youtube-channel-thumb .play{display:grid;place-items:center;text-decoration:none}
+.youtube-description{margin:5px 0 8px!important;text-align:center}
+.youtube-subscribe{display:block;text-align:center;margin-top:8px;padding:9px 13px;border-radius:6px;background:#c8102e;color:#fff;font-size:10px;font-weight:800}
+.youtube-subscribe:hover{filter:brightness(.92)}
